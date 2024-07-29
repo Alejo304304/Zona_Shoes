@@ -1,26 +1,29 @@
 @font-face {
-  font-family: "font-regular" ;
-  src: url("regular.ttf")
+  font-family: "font-regular";
+  src: url("regular.ttf");
 }
 
 @font-face {
-  font-family: "font-bold" ;
-  src: url("font/Gilroy-Bold.ttf")
+  font-family: "font-bold";
+  src: url("font/Gilroy-Bold.ttf");
 }
+
 @font-face {
-  font-family: "font-semibold" ;
-  src: url("semibold.ttf")
+  font-family: "font-semibold";
+  src: url("semibold.ttf");
 }
 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #4622fc, #9d1ffe);
-  color: #fff;
+  background-color: #1C1B18; /* Cambiar el color de fondo de la página */
+  color: #fff; /* Color de las tipografías a blanco */
 }
+
 a {
   font-family: "font-bold";
 }
+
 a img {
   width: 5%;
   height: auto;
@@ -44,7 +47,6 @@ header {
 }
 
 .content {
-
   padding: 20px;
 }
 
@@ -60,8 +62,8 @@ header {
   display: block;
   text-align: center;
   text-decoration: none;
-  color: #fff;
-  background-color: #060647;
+  color: #1C1B18; /* Tipografía de color #1C1B18 */
+  background-color: #F2CB05; /* Color de los botones */
   padding: 20px 40px;
   margin: 10px auto; /* Centrar y agregar espacio */
   border-radius: 50px;
@@ -70,7 +72,8 @@ header {
 }
 
 .link-container a:hover {
-  background-color: #9d1ffe;
+  background-color: #F2CB05; /* Color en hover */
+  color: #1C1B18; /* Color de la tipografía en hover */
 }
 
 .video-container {
@@ -81,4 +84,3 @@ video {
   max-width: 85%;
   border-radius: 10px;
 }
-
